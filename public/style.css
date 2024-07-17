@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+h1 {
+    text-align: center;
+    color:#003366;
+
+}
+.form {
+  border: solid 3px;
+  background-color: #003366;
+  padding: 30px 15px;
+}
+
+.form-component {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px 15px 0px;
+}
+.form input {
+    border-radius: 10%;
+    border: solid purple 1px;
+    width: 300px;
+    height: 30px;
+}
+.form label {
+    color: #F5F5F5;
+    padding-bottom: 4px;
+}
+.form input:hover {
+    border: solid purple 3px;
+}
+.submit-btn {
+    width: 100%;
+    padding-top: 5px;
+    background-color: purple;
+    color:#F5F5F5;
+    border: none;
+    height: 30px;
+}
